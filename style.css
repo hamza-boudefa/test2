@@ -1,0 +1,19 @@
+/* .parent{
+    border: solid;
+    border-radius: 20px;
+
+}
+
+.child{
+    background-color: red;
+    border-radius: inherit  ;
+
+} */
+
+.a{
+    color: green;
+}
+
+#o{
+    color: red;
+}
