@@ -8,8 +8,61 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <div class="a" >hello</div>
-  <div class="a" id="o">hi mate</div>
-</body>
+    <!-- the header section  -->
+    <header>
+      <h1>myShop</h1>
+      <ul>
+        <li>services</li>
+        <li>about</li>
+        <li>contact</li>
+      </ul>
+    </header>
+    <!-- main  -->
+    <main>
+      <h1>Total price : <span id="total">0</span>$</h1>
+      <!-- item 1  -->
+      <section class="items">
+        <img
+          src="https://img2.freepng.fr/20180616/ajs/kisspng-tent-camping-hiking-silnylon-chalet-arab-tent-5b255e8372bf78.07210435152917568347.jpg"
+          alt="tente"
+          width="220px"
+        />
+        <h3>price : <span>150</span> $</h3>
+        <button class="minus-btn">-</button>
+        <h3 id="qty1">0</h3>
+        <button class="plus-btn">+</button>
+        <button class="delete-btn">delete</button>
+        <ion-icon name="heart" class="like-btn" size="large"></ion-icon>
+      </section>
+      <!-- item 2 -->
+      <section class="items">
+        <img
+          src="https://banner2.cleanpng.com/20180629/bsu/kisspng-nike-air-max-97-air-presto-sneakers-air-max-97-5b36a91285a174.7098025915303088825474.jpg"
+          alt="tente"
+          width="220px"
+        />
+        <h3>price : <span>220</span> $</h3>
+        <button class="minus-btn">-</button>
+        <h3>0</h3>
+        <button class="plus-btn">+</button>
+        <button class="delete-btn">delete</button>
+        <ion-icon name="heart" class="like-btn" size="large"></ion-icon>
+      </section>
+      <!-- item 3  -->
+      <section class="items">
+        <img
+          src="https://img2.freepng.fr/20180616/ajs/kisspng-tent-camping-hiking-silnylon-chalet-arab-tent-5b255e8372bf78.07210435152917568347.jpg"
+          alt="tente"
+          width="220px"
+        />
+        <h3>price : <span>130</span> $</h3>
+        <button class="minus-btn">-</button>
+        <h3>0</h3>
+        <button class="plus-btn">+</button>
+        <button class="delete-btn">delete</button>
+        <ion-icon name="heart" class="like-btn" size="large"></ion-icon>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
 </html>
